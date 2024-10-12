@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RPS Game</title> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" > 
+    <meta name="RPS Game" content="This is a rock, paper and scissors game using HTML, CSS and JavaScript" >
+    <meta name="Auther" content="Neamat-Abdollah" >
+    <meta name="description" content="rock, paper, and scissors game using HTML, CSS and JavaScript" >
+    <meta name="Nationality" content="Egyption" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, web, portfolio, developer, front-end ,cv,amazon, calculator, game">
+    <meta name="robots" content="index,follow" >
+    <meta property="og:title" content="RPS Game" >
+    <meta property="og:description" content="Rock, paper and scissors game using HTML, CSS and JavaScript" >
+    <meta property="og:image" content="" >
+    <meta property="og:url" content="" >
+    <meta property="og:type" content="website" >
+    <link rel="icon" type="image/x-icon" href="imgs/rps.png">   
+    <link rel="stylesheet" href="styles.css" >
+  </head>
+  <body>
+    <h1> Rock Paper Scissors</h1><br><br>
+    <!-- Rock Section -->
+      <button class="rockButton">
+        <img src="imgs/rock-emoji.png" alt="rock-emoji" id="rockImg">
+      </button>
+
+    <!-- Paper Section -->
+      <button class="paperButton">
+        <img src="imgs/paper-emoji.png" alt="paper-emoji" id="paperImg">
+      </button>
+ 
+    <!-- Scissors Section -->
+      <button class="scissorsButton" >
+        <img src="imgs/scissors-emoji.png" alt="scissors-emoji" id="scissorImg">
+      </button>
+
+    <br><br>
+
+    <!-- Score -->
+        <p class="userResult"></p>
+        <p class="userAndComputerMove"></p>
+        <p id="score"></p><br><br>
+
+    <!-- Reset Button -->  
+      <button id="reset" class="resetButton">Reset Score</button>
+    
+    <!-- Auto play Button -->
+     <button class="autplayButton">Auto Play</button>
+
+     <!-- yes and no buttons -->
+      <div class="yesNoContainer"></div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

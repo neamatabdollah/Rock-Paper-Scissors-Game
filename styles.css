@@ -1,0 +1,83 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+  font-size: 100%;  
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  text-align: center;
+  margin: 80px auto 0 auto;
+}
+
+img {
+  height: 50px; 
+}
+  
+button {
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 60px;
+  cursor: pointer;
+  margin: 0 8px;
+  transition: transform 0.3s ease;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.userResult {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#score {
+  margin-top: 30px;
+}
+
+#reset , .autplayButton{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  outline: 1px solid white;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding:10px 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.yesButton, .noButton {
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+  width: auto;
+  height: auto;
+  padding:5px 10px;
+  font-weight: bold;
+}
+.yesNoContainer {
+  color: white;
+  border-radius: 0;
+  width: 90%;
+  height: auto;
+  margin:auto;
+  padding:5px;
+}
+
+/* for screen larger than 900px - desktop or larger*/
+/* @media only screen and (min-width: 900px) {
+}  */
+ /* for screen larger than 590px  */
+/* @media only screen and (min-width: 590px) {
+} */
+

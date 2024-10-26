@@ -64,6 +64,7 @@ button:hover {
   height: auto;
   padding:5px 10px;
   font-weight: bold;
+  margin-top: 15px;
 }
 .yesNoContainer {
   color: white;
